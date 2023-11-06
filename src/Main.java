@@ -5,7 +5,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите цвет!:");
         String color = scanner.nextLine();
-
+        System.out.println("hi");
         switch (color) {
             case "red":
                 System.out.println("Остановись!");
